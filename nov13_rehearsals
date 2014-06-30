@@ -1,0 +1,400 @@
+/Hacking Choreography/
+
+/Dance/
+
+{
+set up()
+}
+
+dancer a = stage right
+dancer b = stage left
+
+}
+
+movement ()
+
+move1 (dancera = catch; dancer b = pull)
+move 2 (dancera = roll; dancer b = hop)
+move3 (dancera = slide; dancer b = contract)
+move4 = (dancer = turn; dancerb = jump)
+}
+
+loop ()
+{
+move1
+move2
+move3
+move4
+
+}
+
+run ()
+{
+move1
+move4
+move4
+move1
+move2
+move3
+move1
+move2
+move3
+move4
+}
+
+
+
+set up ()
+{ dancer a = stage right; dancer b = stage left
+}
+
+
+quality()
+{
+quality1 = soft
+quality2 = indirect
+quality3 = sudden
+quality4 = strong
+}
+
+
+{
+dancer a function.switch(quality)
+dancer b function.loop(quality1)
+}
+
+
+
+right.left()
+{
+move1.left
+move2.left
+move3.left
+move4.left
+}
+
+
+{ if dancer a = left; then dancer b = right;
+}
+
+run loop ()
+{
+move1
+move2
+move3
+move4
+}
+
+
+
+{if dancer b = move1 then dancer a = move 4}
+
+
+
+/Dance/
+set up ()
+{
+dancer a centre, right
+dancer b centre, left
+}
+
+movement ()
+{
+move1 (dancer a = rotate) (dancer b = push)
+move2 (dancer a = pull) (dancer b = swing)
+move3 (dancer a = static) (dancer b = wave)
+move4 (dancer a = throw) (dancer b = twist)
+}
+
+
+loop ()
+{move1
+move2
+move3
+move4
+}
+
+
+
+run loop ()
+{
+move4
+move2
+}
+
+
+
+run loop ()
+{
+move1
+move3
+move4
+}
+
+if...then ()
+{
+if dancer a (move1) then dancer b (move2);
+}
+
+
+right.left()
+{
+move1.right
+move2.right
+move3.right
+move4.left
+}
+
+
+run loop ()
+{
+move1
+move2
+move3
+move4
+}
+
+
+quality()
+{
+quality1 = soft
+quality2 = indirect
+quality3 = sudden
+quality4 = strong
+}
+
+
+
+
+if…then ()
+{
+if dancer b= (right) then dancer a = quality1}
+
+
+
+
+
+
+run loop()
+{
+dancer b = interrupt dancer a
+}
+
+
+function.end
+
+
+movement ()
+{
+move1 (dancer a = rotate) (dancer b = push)
+move2 (dancer a = pull) (dancer b = swing)
+move3 (dancer a = static) (dancer b = wave)
+move4 (dancer a = throw) (dancer b = twist)
+}
+
+
+run loop ()
+{
+move1
+move2
+move3
+move4
+}
+
+colour ()
+{
+dancer a = hot pink
+dancer b = hot pink
+}
+
+
+
+
+
+run loop ()
+{
+move1; cold
+move2; hot
+move3; burning
+move4; cool
+}
+
+
+
+
+
+levels ()
+{
+move1 = floor
+move2 = high
+move3 = neither
+move4 = either or
+}
+
+
+
+if…then()
+{
+if dancer b = move1 then dancer a = waltz
+}
+
+
+
+if…then()
+{
+if dancer a = rotate 180 then dancer b = (right)move3
+}
+
+
+function.end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

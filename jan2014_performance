@@ -1,0 +1,93 @@
+
+/Dance/
+Set up ()
+dancera centre, right
+dancer centre, left
+
+movement ()
+move 1 (dancer a = rotate)
+(dancer b =push)
+move2 (dancer a = pull) (dancer b=swing)
+move3 (dancer a =static) (dancer b =wave)
+move4 (dancer a =throw)
+(dancer b = twist)
+
+
+
+loop ()
+{
+move4
+move1
+move3
+move2
+}
+end loop.
+
+run ()
+{
+move1
+move4
+move4
+move1
+move2
+move3
+move1
+move2
+move3
+move4
+}
+
+
+if...then ()
+{
+if dancer b (move3) then dancer a (move2);
+}
+
+
+quality()
+{
+quality1 = soft
+quality2 = indirect
+quality3 = sudden
+quality4 = strong
+}
+
+{
+dancer a function.loop(quality4)
+dancer b move2 quailty.switch()
+}
+
+
+
+right.left()
+{
+move1.right
+move2.left
+move3.left
+move4.right
+}
+
+
+{
+if dancer a (move4)Right(); then dancer b (move4)Left();
+}
+
+
+{
+if dancer a (move1) = 180 then dancer b (move1)Soft();
+}
+
+
+
+run loop()
+{
+move1; quality1
+move2; quality4
+move2; quality1
+move4; quality1
+}
+
+
+
+
+dance. end
